@@ -1,4 +1,4 @@
-@charset"utf-8";
+
 /*Reset*/
 body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{
 	margin: 0;
@@ -41,3 +41,28 @@ a:hover{
 /*public*/
 .fl{float: left;}
 .fr{float: right;}
+
+.gradient{
+		width: 800px;
+		height: 800px;
+		background: -webkit-linear-gradient(top,#fff,#f8f8f8);
+		background: -moz-linear-gradient(top,#fff,#f8f8f8);
+		background: -ms-linear-gradient(top,#fff,#f8f8f8);
+		background: linear-gradient(top,#fff,#f8f8f8);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FFFFFF, endColorstr=#f8f8f8)";
+		background: #f8f8f8;
+}
+		
+/*Layout*/
+#header{width: 960px; height: 30px; margin: 0 auto; border-radius: 0 0 6px 6px;}
+#nav{width: 960px; height: 30px; margin: 0 auto;}
+#search{width: 958px; height: 114px; margin: 0 auto 10px; border: 1px solid #dbdbdb; border-radius: 6px; }
+.content{width: 960px; margin: 0 auto;}
+.main{width: 710px;}
+.section{width: 318px; height: 200px; /* 333 */ padding: 0 15px; border: 1px solid #dbdbdb; border-radius: 6px; margin-bottom: 10px;}
+.options{width: 350px; height: 200px; background: #000;}
+.main_ad{margin-bottom: 10px;border-radius: 6px; overflow: hidden; display: block;}
+.sider{width: 240px;}
+.sider_section{height: 60px; border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px;}
+.sider_ad{border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px; overflow: hidden; }
+.footer{}
