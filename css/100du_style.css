@@ -63,6 +63,6 @@ a:hover{
 .options{width: 350px; height: 200px; background: #000;}
 .main_ad{margin-bottom: 10px;border-radius: 6px; overflow: hidden; display: block;}
 .sider{width: 240px;}
-.sider_section{height: 60px; border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px;}
+.sider_section{height: 60px; border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px; }
 .sider_ad{border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px; overflow: hidden; }
-.footer{}
+#footer{width: 958px; height: 78px; margin: 0 auto; border: 1px solid #dbdbdb; background: #F9F9F9; border-radius: 6px; }
