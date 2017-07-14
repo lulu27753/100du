@@ -76,3 +76,16 @@ body{margin-bottom: 30px; }
 .options .nav li{width: 172px; height: 33px; border: 1px solid #dbdbdb; border-bottom: none; border-radius: 6px 6px 0 0;}
 .options .nav .active{width: 172px;height: 34px;background: #fff;}
 .options .con{width: 348px;height: 80px;/* 333 */border: 1px solid #dbdbdb; border-radius: 0 0 6px 6px;}
+
+
+#header .city{padding-left: 20px; line-height: 30px;}
+#header .city a{height: 18px; line-height: 18px; display: inline-block; padding: 0 7px; border: 1px solid #e5e5e5; border-radius: 4px; box-shadow: 1px 1px 0 #ededed; background: #fff; color: #999999;}
+#header .city .active{color: #d60d03;}
+#header .city .active:hover{background: #fff;;}
+#header .city a:hover{background: #f1f1f1;}
+#header .link{padding-right: 20px;line-height: 30px; color: #d5d5d5;}
+#header .link a{height: 18px; padding-left: 20px; line-height: 18px; color: #666666;background: url(../img/header_link_bg.gif) 0 3px no-repeat;}
+#header .link a:hover{text-decoration: underline;}
+#header .link span{padding-left: 6px;}
+#header .link .ico1{background-position: 0 3px;}
+#header .link .ico2{background-position: 0 -27px;}
