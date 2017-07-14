@@ -54,15 +54,25 @@ a:hover{
 }
 		
 /*Layout*/
-#header{width: 960px; height: 30px; margin: 0 auto; border-radius: 0 0 6px 6px;}
-#nav{width: 960px; height: 30px; margin: 0 auto;}
-#search{width: 958px; height: 114px; margin: 0 auto 10px; border: 1px solid #dbdbdb; border-radius: 6px; }
-.content{width: 960px; margin: 0 auto;}
+#header, #nav, .content{width: 960px; margin: 0 auto;}
+#search, .section, .sider_section, #footer{border: 1px solid #dbdbdb; border-radius: 6px;}
+.section, .main_ad, .sider_section, .sider_ad{margin-bottom: 10px;}
+body{margin-bottom: 30px; }
+#header{ height: 30px;  border-radius: 0 0 6px 6px;}
+#nav{height: 100px; }
+#search{width: 958px; height: 114px; margin: 0 auto 10px;  }
+.content{}
 .main{width: 710px;}
-.section{width: 318px; height: 200px; /* 333 */ padding: 0 15px; border: 1px solid #dbdbdb; border-radius: 6px; margin-bottom: 10px;}
-.options{width: 350px; height: 200px; background: #000;}
-.main_ad{margin-bottom: 10px;border-radius: 6px; overflow: hidden; display: block;}
+.section{width: 318px; height: 200px; /* 333 */ padding: 0 15px;}
+.options{width: 350px; height: 200px; /* 333 */ }
+.main_ad{margin-bottom: 10px; border-radius: 6px; overflow: hidden; display: block !important;}
 .sider{width: 240px;}
-.sider_section{height: 60px; border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px; }
-.sider_ad{border: 1px solid #dbdbdb; margin-bottom: 10px; border-radius: 6px; overflow: hidden; }
-#footer{width: 958px; height: 78px; margin: 0 auto; border: 1px solid #dbdbdb; background: #F9F9F9; border-radius: 6px; }
+.sider_section{height: 60px; padding: 0 10px;}
+.sider_ad{border: 1px solid #dbdbdb; border-radius: 6px; overflow: hidden; }
+#footer{width: 958px; height: 78px; margin: 0 auto; background: #F9F9F9; }
+
+
+.options .nav{height: 34px; position: relative;}
+.options .nav li{width: 172px; height: 33px; border: 1px solid #dbdbdb; border-bottom: none; border-radius: 6px 6px 0 0;}
+.options .nav .active{width: 172px;height: 34px;background: #fff;}
+.options .con{width: 348px;height: 80px;/* 333 */border: 1px solid #dbdbdb; border-radius: 0 0 6px 6px;}
