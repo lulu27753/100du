@@ -80,7 +80,7 @@ body{margin-bottom: 30px; }
 .sider{width: 240px;}
 .sider_section{height: 60px; padding: 0 10px;}
 .sider_ad{border: 1px solid #dbdbdb; border-radius: 6px; overflow: hidden; }
-#footer{width: 958px; height: 78px; margin: 0 auto; background: #F9F9F9; }
+#footer{width: 743px; height: 78px; margin: 0 auto; padding-left: 215px; padding-top: 21px; background: #F9F9F9; }
 
 
 .options .nav{height: 34px; position: relative;}
@@ -184,6 +184,7 @@ body{margin-bottom: 30px; }
 
 .nav .main_title{width: 172px; height: 33px; line-height: 33px; text-align: center;}
 
+/* Module_hot_list */
 .hot_list{height: 384px; position: relative;}
 .hot_list ul{width: 318px; height: 318px; padding: 15px;} 
 .hot_list li{width: 318px; height: 106px; margin-bottom: 6px; background:  url(../img/hot_list_li_bg.gif);}
@@ -194,3 +195,10 @@ body{margin-bottom: 30px; }
 .hot_list .text a{font-weight: normal; color: #f42b00;}
 .hot_list .text p{line-height: 16px; color: #6e6e6e;}
 .hot_list .more{position: absolute; right: 15px; bottom: 10px;}
+/* Module_hot_list End */
+
+/* Mudule footer */
+
+#footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
+#footer p{color: #767676; padding-left: 65px;}
+/* Mudule footer End */
