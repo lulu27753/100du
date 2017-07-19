@@ -78,7 +78,7 @@ body{margin-bottom: 30px; }
 .options{width: 350px;}
 .main_ad{margin-bottom: 10px; border-radius: 6px; overflow: hidden; display: block !important;}
 .sider{width: 240px;}
-.sider_section{height: 60px; padding: 0 10px;}
+.sider_section{ padding: 0 10px;}
 .sider_ad{border: 1px solid #dbdbdb; border-radius: 6px; overflow: hidden; }
 #footer{width: 743px; height: 78px; margin: 0 auto; padding-left: 215px; padding-top: 21px; background: #F9F9F9; }
 
@@ -184,6 +184,21 @@ body{margin-bottom: 30px; }
 
 .nav .main_title{width: 172px; height: 33px; line-height: 33px; text-align: center;}
 
+/* Module tab */
+.tab{height: 25px; border-bottom: 1px solid #dadada;}
+.tab ul{height: 26px; margin-bottom: -1px; position: relative;}
+.tab li{float: left; position: relative; border: 1px solid #dadada; margin-right: -1px; border-radius:4px 4px 0 0; text-align: center; line-height: 24px; color: #666666; cursor: pointer;}
+.tab .active{border-bottom: 1px solid #fff; background: #fff; font-weight: bold; color: #454545;}
+.tab .triangle_gray,.tab .triangle_down{top: 10px; right: 12px;}
+/* the first tab */
+.section .tab{padding: 0 10px;}
+.section .tab li{width: 98px; height: 24px; }
+/* the second tab */
+.sider_section .tab{padding: 0 6px;}
+.sider_section .tab li{width: 66px; height: 22px;}
+/* Module tab End */
+
+
 /* Module_hot_list */
 .hot_list{height: 384px; position: relative;}
 .hot_list ul{width: 318px; height: 318px; padding: 15px;} 
@@ -218,7 +233,58 @@ body{margin-bottom: 30px; }
 .media li p{position: absolute; left: 98px; line-height: 20px; color: #292929;}
 /* Mudule media End */
 
+
+/* Mudule pic_list */
+.pic_list{}
+.pic_list li
+.pic_list li .img{}
+.pic_list li .img a{height: 73px; width: 96px;}
+.pic_list li .img img:hover{border: 1px solid red;}
+.pic_list li .img img{border: 1px solid #dadada;}
+.pic_list li .text{}
+.pic_list li .text h3{font-size: 11px; line-height: 12px; font-weight: normal; color: #b80000;}
+.pic_list li .text p{line-height: 16px; color: #999999; }
+.pic_list li .text a{color: #666666;}
+.pic_list li .text a:hover{color: red;}
+/* Mudule pic_list End */
+/* Mudule list_section */
+.list_section{}
+.list_section li{line-height: 27px; border: 1px dotted #cbcbca; border-left: none; border-right: none;}
+.list_section .last{border-bottom: none;}
+.list_section li a{color: #333333;}
+.list_section li em{color: #c3c3c3;}
+.list_section li span{color: #c75d61;}
+/* Mudule list_section End  */
+
+.wrap_section2{height: 378px;} 
+.wrap_section2 .pic_list{}
+.wrap_section2 .list_section{}
+
+.panoramic{height: 138px;}
+.panoramic a{}
+.panoramic img{}
+.panoramic span{color: #333333;}
+
+ 
+.wrap_section3{height: 328px;} 
+.wrap_section3 .pic_list{}
+.wrap_section3 .list_section{}
+
+/* Mudule sider_section4 */
+
+.wrap_section4{height: 328px;} 
+.wrap_section4 .pic_list{}
+.wrap_section4 .list_section{}
+.wrap_section4
+.wrap_section4
+.wrap_section4
+
+/* Mudule sider_section4 End */
+
 /* Mudule footer */
+
+#footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer p{color: #767676; padding-left: 65px;}
+
 /* Mudule footer End */
