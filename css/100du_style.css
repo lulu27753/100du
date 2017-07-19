@@ -197,8 +197,28 @@ body{margin-bottom: 30px; }
 .hot_list .more{position: absolute; right: 15px; bottom: 10px;}
 /* Module_hot_list End */
 
-/* Mudule footer */
+/* Mudule help */
+.help{height: 208px; padding-top: 15px;} 
+.help p{color: #333333; line-height: 18px;}
+.help ul{height : 22px; line-height: 22px; padding:18px 0; border-bottom: 1px solid #ededee;}
+.help ul li{height: 17px;  margin: 0 auto; }
+.help ul .phone{width: 121px; text-indent: 22px; background:  url(../img/help.gif) 0 0 no-repeat; color: #b80000; font-weight: bold;}
+.help ul .msn{background:  url(../img/help.gif) 0 -44px no-repeat; text-indent: 24px; color: #333333;}
+.help dl{width: 150px; height: 96px; padding-top: 20px; color: #292929;}
+.help dl dt{font-weight: bold; text-indent: 11px;}
+.help dl dd{line-height: 18px; background:  url(../img/dot.gif) 4px center no-repeat;  padding-left: 12px; }
 
+/* Mudule help End */
+
+/* Mudule media */
+.media{height: 208px; padding-top: 15px;}
+.media li{width: 318px;height: 44px; position: relative;}
+.media li a{width: 88px; height: 44px;}
+.media li img{position: absolute; left: 0;}
+.media li p{position: absolute; left: 98px; line-height: 20px; color: #292929;}
+/* Mudule media End */
+
+/* Mudule footer */
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer p{color: #767676; padding-left: 65px;}
 /* Mudule footer End */
