@@ -177,7 +177,7 @@ body{margin-bottom: 30px; }
 .main_title{height: 40px; line-height: 40px; font-family: arial; position: relative;}
 .main_title strong{color: #cc0d13;}
 .main_title strong span{color: #010000;}
-.main_title a{position: absolute; top: 15px; right: 0;}
+.main_title a{position: absolute; top: 15px; right: 12px;}
 .main_title sup{position: absolute; top: 7px;}
 /* Module_content_public_mainTitle End*/
 
@@ -186,7 +186,7 @@ body{margin-bottom: 30px; }
 
 /* Module tab */
 .tab{height: 25px; border-bottom: 1px solid #dadada;}
-.tab ul{height: 26px; margin-bottom: -1px; position: relative;}
+.tab ul{ margin-bottom: -1px; position: relative; }
 .tab li{float: left; position: relative; border: 1px solid #dadada; margin-right: -1px; border-radius:4px 4px 0 0; text-align: center; line-height: 24px; color: #666666; cursor: pointer;}
 .tab .active{border-bottom: 1px solid #fff; background: #fff; font-weight: bold; color: #454545;}
 .tab .triangle_gray,.tab .triangle_down{top: 10px; right: 12px;}
@@ -195,7 +195,7 @@ body{margin-bottom: 30px; }
 .section .tab li{width: 98px; height: 24px; }
 /* the second tab */
 .sider_section .tab{padding: 0 6px;}
-.sider_section .tab li{width: 66px; height: 22px;}
+.sider_section .tab li{width: 66px; height: 24px;}
 /* Module tab End */
 
 
@@ -247,14 +247,41 @@ body{margin-bottom: 30px; }
 .pic_list li .text a{color: #666666;}
 .pic_list li .text a:hover{color: red;}
 /* Mudule pic_list End */
+
 /* Mudule list_section */
 .list_section{}
-.list_section li{line-height: 27px; border: 1px dotted #cbcbca; border-left: none; border-right: none;}
+.list_section li{line-height: 27px; border-top: 1px dotted #cbcbca;  background:  url(../img/dot.gif) 6px center no-repeat;  }
 .list_section .last{border-bottom: none;}
-.list_section li a{color: #333333;}
+.list_section li a{display: inline-block; text-indent: 14px; color: #333333;}
 .list_section li em{color: #c3c3c3;}
-.list_section li span{color: #c75d61;}
+.list_section li span{ color: #c75d61;text-align: center;}
+
+
+.list_section .title{background: none; border-top: none;}
+.list_section .title span{color: #999999; }
+
+.sider_section .list_section .col1{ display: inline-block; width: 132px;}
+.sider_section .list_section .col1 a{ width: 132px; text-align: left;}
+.sider_section .list_section .col2{ display: inline-block; width: 33px; }
+.sider_section .list_section .col3{ display: inline-block; width: 32px; }
+
+
+.section .list_section .col1{ display: inline-block; width: 260px;}
+.section .list_section .col1 a{ width: 260px; text-align: left;}
+.section .list_section .col2{ display: inline-block; width: 30px; }
+.section .list_section .col2 img{ position: relative; bottom: 9px; }
+
 /* Mudule list_section End  */
+/* Mudule soso */
+.soso{height: 60px; border-top: 1px dotted #cbcbca;}
+.soso strong{width: 64px; float: left; margin-top: 17px;}
+.soso .text{width: 172px; height: 20px; padding: 0 4px; margin: 17px 10px 21px 10px; float: left; border: 1px solid #9c9c9c; color: #9c9c9c;}
+.soso .btn{width: 24px; height: 25px; float: left; margin-top: 17px;border: none; background:  url(../img/btn.gif) 0 0 no-repeat;}
+/* Mudule soso End*/
+
+/* Mudule wrap */
+
+.wrap_section1{padding-bottom: 5px;}
 
 .wrap_section2{height: 378px;} 
 .wrap_section2 .pic_list{}
@@ -271,16 +298,14 @@ body{margin-bottom: 30px; }
 .wrap_section3 .list_section{}
 
 /* Mudule sider_section4 */
-
 .wrap_section4{height: 328px;} 
 .wrap_section4 .pic_list{}
 .wrap_section4 .list_section{}
 .wrap_section4
 .wrap_section4
 .wrap_section4
-
 /* Mudule sider_section4 End */
-
+/* Mudule wrap End */
 /* Mudule footer */
 
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
