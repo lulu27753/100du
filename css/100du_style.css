@@ -212,7 +212,7 @@ body{margin-bottom: 30px; }
 .hot_list .more{position: absolute; right: 15px; bottom: 10px;}
 /* Module_hot_list End */
 
-/* Mudule help */
+/* Module help */
 .help{height: 208px; padding-top: 15px;} 
 .help p{color: #333333; line-height: 18px;}
 .help ul{height : 22px; line-height: 22px; padding:18px 0; border-bottom: 1px solid #ededee;}
@@ -223,18 +223,18 @@ body{margin-bottom: 30px; }
 .help dl dt{font-weight: bold; text-indent: 11px;}
 .help dl dd{line-height: 18px; background:  url(../img/dot.gif) 4px center no-repeat;  padding-left: 12px; }
 
-/* Mudule help End */
+/* Module help End */
 
-/* Mudule media */
+/* Module media */
 .media{height: 208px; padding-top: 15px;}
 .media li{width: 318px;height: 44px; position: relative;}
 .media li a{width: 88px; height: 44px;}
 .media li img{position: absolute; left: 0;}
 .media li p{position: absolute; left: 98px; line-height: 20px; color: #292929;}
-/* Mudule media End */
+/* Module media End */
 
 
-/* Mudule pic_list */
+/* Module pic_list */
 .pic_list{height: 73px;}
 .pic_list .img a{width: 90px; height: 67px; padding: 2px; display: block; border: 1px solid #dadada;}
 .pic_list .img a:hover{border: 1px solid red;}
@@ -242,9 +242,9 @@ body{margin-bottom: 30px; }
 .pic_list .text p{line-height: 18px; color: #999999; }
 .pic_list .text a{color: #666666;}
 .pic_list .text a:hover{color: red;}
-/* Mudule pic_list End */
+/* Module pic_list End */
 
-/* Mudule list_section */
+/* Module list_section */
 .list_section li{line-height: 27px; border-top: 1px dotted #cbcbca;  background:  url(../img/dot.gif) 6px center no-repeat;  }
 .list_section .last{border-bottom: none;}
 .list_section li a{display: inline-block; text-indent: 14px; color: #333333;}
@@ -264,15 +264,45 @@ body{margin-bottom: 30px; }
 .section .list_section .col2{ display: inline-block; width: 30px; }
 .section .list_section .col2 img{ position: relative; bottom: 9px; }
 
-/* Mudule list_section End  */
-/* Mudule soso */
+/* Module list_section End  */
+/* Module soso */
 .soso{height: 60px; border-top: 1px dotted #cbcbca;}
 .soso strong{width: 64px; float: left; margin-top: 17px;}
 .soso .text{width: 172px; height: 20px; padding: 0 4px; margin: 17px 10px 21px 10px; float: left; border: 1px solid #9c9c9c; color: #9c9c9c;}
 .soso .btn{width: 24px; height: 25px; float: left; margin-top: 17px;border: none; background:  url(../img/btn.gif) 0 0 no-repeat;}
-/* Mudule soso End*/
+/* Module soso End*/
+/* Module new_title */
+.new_title{height: 71px; position: relative; word-spacing: 4px;}
+.new_title strong{position: absolute; top: 22px; font-size: 12px; font-family: Arial; color: #ea2b31;}
+.new_title span{position: absolute; top: 36px; font-size: 23px; color: #333333;}
+.new_title em{position: absolute; top: 26px; left: 105px; font-size: 28px; color: #ec1c16;}
+.activity .new_title{background:  url(../img/new_title_bg.gif) right 0 no-repeat;}
+.recommdation .new_title{background: url(../img/new_title_bg.gif) right -70px no-repeat;;}
+/* Module new_title End */
 
-/* Mudule wrap */
+/* Module activity */
+.con .info{width: 318px; height: 86px; padding: 14px 0 19px 0; background:  url(../img/activity_bg.gif) -14px 0 no-repeat; overflow: hidden;}
+.con .info .img, .con .info h3, .con .info p{float: left;}
+.con .img{width: 84px;height: 84px; position: relative; padding-right: 12px; }
+.con .img .mask{width: 84px; height: 86px; position: absolute; top: 0; left: 0; background:  url(../img/activity_bg.gif) -373px 0 no-repeat;}
+.con .info strong{line-height: 25px; font-size: 11px; }
+.con .info h3 span{width: 25px; height: 25px; line-height: 25px; text-align: center; margin-right: 4px; background:  url(../img/activity_bg.gif) -348px 0 no-repeat; font-size:11px; color: #cf3530;}
+.con .info p{width: 208px; line-height: 18px; color: #999999;}
+
+/* calendar */
+.calendar {font-size: 10px; text-align: center;}
+.calendar h3{width: 298px; font-weight: bold; background:  url(../img/adorn.gif)   repeat-x; word-spacing: 10px; color: #696969; }
+.calendar h3 span{width: 32px; height: 34px; padding-left: 10px; float: left; line-height: 34px;  }
+.calendar ol{}
+.calendar li{width: 40px; height: 40px; line-height: 40px; margin: 0 3px 2px 0; float: left; background: #ededed; color: #8a8a8a; list-style-type:none;}
+.calendar .normal{background: #f8f8f8; color: #dedede;}
+
+.calendar .active{position: relative;}
+.calendar .active img{width: 39px; height: 39px; position: absolute; top: 0; left: 0; border: 1px solid red;}
+/* Module activity End */
+
+
+/* Module wrap */
 
 .wrap_section1{padding-bottom: 5px;}
 
@@ -290,15 +320,15 @@ body{margin-bottom: 30px; }
 .wrap_section3 .pic_list .img{float: left;}
 .wrap_section3 .pic_list .text{width: 94px; height: 57px; padding: 8px 12px; float: right; }
 
-/* Mudule sider_section4 */
+/* Module sider_section4 */
 .wrap_section4{height: 328px;} 
 .wrap_section4 .pic_list{}
 .wrap_section4 .pic_list .text{width: 96px; height: 48px; padding: 10px 0 20px 0; }
-/* Mudule sider_section4 End */
-/* Mudule wrap End */
+/* Module sider_section4 End */
+/* Module wrap End */
 
-/* Mudule footer */
+/* Module footer */
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer p{color: #767676; padding-left: 65px;}
-/* Mudule footer End */
+/* Module footer End */
