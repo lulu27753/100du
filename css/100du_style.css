@@ -264,6 +264,7 @@ body{margin-bottom: 30px; }
 .section .list_section .col2{ display: inline-block; width: 30px; }
 .section .list_section .col2 img{ position: relative; bottom: 9px; }
 
+
 /* Module list_section End  */
 /* Module soso */
 .soso{height: 60px; border-top: 1px dotted #cbcbca;}
@@ -300,8 +301,23 @@ body{margin-bottom: 30px; }
 .calendar .active{position: relative;}
 .calendar .active img{width: 39px; height: 39px; position: absolute; top: 0; left: 0; border: 1px solid red;}
 /* Module activity End */
+/* Module pic_show */
+.recommd_list{width: 318px; overflow: hidden;}
+.recommd_list li{line-height: 28px; color: #dfdfdf;}
+.recommd_list li em{float: left; width: 15px;}
+.recommd_list li a{color: #454545;}
+.recommd_list li span{float: left; text-align: left; }
+.recommd_list .col1{display: inline-block; width: 24px; height: 28px; position: relative; top: 8px; }
+.recommd_list .col2{display: inline-block; width: 230px; font-size: 12px;}
+.recommd_list .col3{display: inline-block; width: 40px; color: #999; font-size: 8px;}
 
-
+.pic_show{width: 292px; height: 154px; padding: 13px; background: #f8f8f8;}
+.pic_show .pic{width: 223px; height: 133px; float: left;}
+.pic_show .switch_ls{width: 58px; height: 133px; float: right;}
+.pic_show .switch_ls img{width: 55px; height: 30px; margin-bottom: 20px;}
+.pic_show .switch_ls .active{border: 3px solid #d8282c;}
+.pic_show .pic_title{width: 318px; float: left; position: relative; top: 10px;}
+/* Module pic_show End*/
 /* Module wrap */
 
 .wrap_section1{padding-bottom: 5px;}
