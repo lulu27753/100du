@@ -380,6 +380,19 @@ body{margin-bottom: 30px; }
 /* Module sider_section4 End */
 /* Module wrap End */
 
+/* Module load */
+.load{height: 103px; position: relative;}
+.load li{list-style: none; line-height: 26px; padding-left: 12px;}
+.load li span{display: inline-block; width: 54px;}
+.load li .text, .load li .password{width: 89px; border: 1px solid #e5e5e5; background: #f7f7f7;}
+.load li label{width: 79px; margin-left: 6px; }
+.load label input{width: 12px; height: 12px;}
+.load label strong{font-weight: normal;}
+.load li .password{}
+.load li .btn{width: 55px; margin-left: 6px; background: #f00000; border-radius: 10px; color: #fff; border: none;}
+.load p{position: absolute; bottom: 0; left: 0; border-top: 1px solid #f2f2f2;}
+.load p a{width: 97px; height: 33px; line-height: 33px; float: left; background: url(../img/dot.gif) 18px center no-repeat; color: #666; text-indent: 27px;}
+/* Module load End*/
 /* Module footer */
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
 #footer a{width: 70px; display: inline-block; color: #454545; line-height: 26px; text-align: center;}
