@@ -15,6 +15,7 @@ border-collapse: collapse;
 ul{
 list-style-type: none;
 }
+ol{list-style: none;}
 input,textarea{
 outline: none;
 }
@@ -324,7 +325,7 @@ body{margin-bottom: 30px; }
 /* Module con End*/
 
 /* Module bbs */
-.bbs ol{list-style: none;}
+
 .bbs li{width: 318px; height: 30px; margin-bottom: 3px; position: relative;	background: #f1f1f1; border-radius: 4px;}
 .bbs li strong, .bbs li img, .bbs li a,.bbs li em{float: left; position: absolute;}
 .bbs li span, .bbs li b{float: right; }
@@ -345,7 +346,15 @@ body{margin-bottom: 30px; }
 .bbs .active span{display: block; position: absolute; bottom: 0; right: 5px; color: #fff; font-size: 20px;}
 .bbs .active b{display: none;}
 /* Module bbs End*/
-
+/* Module hot_people */
+.hot_people {}
+.hot_people li, .hot_people li img {width: 78px; height: 78px;}
+.hot_people li{position: relative; float: left; margin: 0 2px 2px 0; }
+.hot_people .unnormal1, .hot_people .unnormal1 img{width: 156px; }
+.hot_people .unnormal2, .hot_people .unnormal2 img{width: 77px; }
+.hot_people li .text{display:none}
+.hot_people li:hover .text{width: 132px; height: 54px; padding: 12px; display: block; position: absolute; left: 0; top: 0; background: rgba(0,0,0,0.5); color: #fff;}
+/* Module hot_people End*/
 /* Module wrap */
 
 .wrap_section1{padding-bottom: 5px;}
