@@ -246,7 +246,7 @@ body{margin-bottom: 30px; }
 /* Module pic_list End */
 
 /* Module list_section */
-.list_section li{line-height: 27px; border-top: 1px dotted #cbcbca;  background:  url(../img/dot.gif) 6px center no-repeat;  }
+.list_section li{ line-height: 27px; border-top: 1px dotted #cbcbca;  background:  url(../img/dot.gif) 6px center no-repeat;  }
 .list_section .last{border-bottom: none;}
 .list_section li a{display: inline-block; text-indent: 14px; color: #333333;}
 .list_section li em{color: #c3c3c3;}
@@ -375,7 +375,7 @@ body{margin-bottom: 30px; }
 
 /* Module sider_section4 */
 .wrap_section4{height: 328px;} 
-.wrap_section4 .pic_list{}
+.wrap_section4 .pic_list{height: 151px;}
 .wrap_section4 .pic_list .text{width: 96px; height: 48px; padding: 10px 0 20px 0; }
 /* Module sider_section4 End */
 /* Module wrap End */
