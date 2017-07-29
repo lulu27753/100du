@@ -91,6 +91,8 @@ $(function  () {
 	(function  () {
 		tabSwitch($('.tabNav1'), $('.tabCon1'),'click');
 		tabSwitch($('.tabNav2'), $('.tabCon2'),'click');
+		tabSwitch($('.tabNav3'), $('.tabCon3'),'mouseover');
+		tabSwitch($('.tabNav4'), $('.tabCon4'),'mouseover');
 		function tabSwitch (oNav, aCon, sEvent) {
 			var aLi = oNav.children();
 			aCon.hide().eq(0).show();
@@ -115,4 +117,6 @@ $(function  () {
 		}
 		
 	})();
+	// 焦点图自动播放
+	
 });
