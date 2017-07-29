@@ -1,6 +1,6 @@
 $(function  () {
 	// 搜索切换
-	(function function_name (argument) {
+	(function  () {
 		var aLi = $('#menu li');
 		var defautTexts = [
 			'例如：荷棠鱼坊烧鱼 或 樱花日本料理',
@@ -85,6 +85,34 @@ $(function  () {
 		// 鼠标移入停止自动滚动，移出时恢复自动滚动
 		oDiv.hover(function  () {
 			clearInterval(timer);
-		},autoPlay);
+		},autoPlay)
+	})();
+	// 选项卡切换
+	(function  () {
+		tabSwitch($('.tabNav1'), $('.tabCon1'),'click');
+		tabSwitch($('.tabNav2'), $('.tabCon2'),'click');
+		function tabSwitch (oNav, aCon, sEvent) {
+			var aLi = oNav.children();
+			aCon.hide().eq(0).show();
+			aLi.each(function  (index) {
+				$(this).on(sEvent,function () {
+				aLi.removeClass('active').addClass('gradient');
+				// console.log(aLi);
+				$(this).removeClass('gradient').addClass('active');
+				// console.log($(this));
+				aLi.find('a').attr({
+					class: 'triangle_gray',
+				});
+				$(this).find('a').attr({
+					class: 'triangle_down',
+				});
+				// console.log(index);
+				aCon.hide().eq(index).show()
+				}
+
+			);
+			});
+		}
+		
 	})();
 });
