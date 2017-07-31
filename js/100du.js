@@ -118,5 +118,48 @@ $(function  () {
 		
 	})();
 	// 焦点图自动播放
-	
+	(function  () {
+		var arrData = ['爸爸去哪儿啦~', '人像摄影中的光影感', '娇柔妩媚、美艳大方' ];
+		var oDiv = $('.pic_show');
+		var aImg = oDiv.find('.switch_ls').children();
+		var aPic = oDiv.find('.pic').children();
+		var oH4 = $('.pic_show .pic_title');
+		var timer = null;
+		var iNow = 0;
+
+		
+		aImg.each(function  (index) {
+		$(this).click(function  () {
+			iNow = $(this).index();
+			switch_lmag(iNow);}
+			);
+			});
+
+		oDiv.hover(function  () {
+			clearInterval(timer);
+		},autoPlay);
+
+		function switch_lmag (iNow) {
+			aPic.each(function  (i) {
+				if (i != iNow) {
+					aPic.eq(i).fadeOut().css('zIndex','1');
+					aImg.eq(i).removeClass('active');
+				} else{
+					aPic.eq(i).fadeIn().css('zIndex','2');
+					aImg.eq(i).addClass('active');
+				};
+			});
+			oH4.html(arrData[iNow]);
+		}
+		
+		function autoPlay () {
+			timer = setInterval(function  () {
+				iNow ++ ;
+				iNow = iNow % arrData.length;
+				switch_lmag(iNow);
+			},1500);
+		}
+		autoPlay ();
+		
+	})();
 });

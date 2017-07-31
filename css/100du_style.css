@@ -313,7 +313,7 @@ body{margin-bottom: 30px; }
 .recommd_list .col3{display: inline-block; width: 40px; color: #999; font-size: 8px;}
 
 .pic_show{width: 292px; height: 154px; padding: 13px; background: #f8f8f8;}
-.pic_show .pic{width: 223px; height: 133px; float: left;}
+.pic_show .pic{width: 223px; height: 133px; float: left; overflow: hidden;}
 .pic_show .switch_ls{width: 58px; height: 133px; float: right;}
 .pic_show .switch_ls img{width: 55px; height: 30px; margin-bottom: 20px;}
 .pic_show .switch_ls .active{border: 3px solid #d8282c;}
