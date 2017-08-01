@@ -162,4 +162,27 @@ $(function  () {
 		autoPlay ();
 		
 	})();
+	// 日历提示说明
+	(function  () {
+		var oPrompt = $('.today_info');
+		var oImg  = oPrompt.find('img');
+		var oStrong = oPrompt.find('strong');
+		var oP = oPrompt.find('p');
+		var oSpan = oPrompt.find('span');
+		var aSpan = $('.calendar span');
+		var aImg = $('.calendar li img');
+
+		aImg.hover(function () {
+			var iLeft = $(this).parent().position().left + 55;
+			var iTop = $(this).parent().position().top - 30;
+			var index = $(this).parent().index() % aSpan.size();
+
+			oPrompt.show().css({'top': iTop, 'left': iLeft});
+			oImg.attr('src', $(this).attr('src'));
+			oStrong.text(aSpan.eq(index).text());
+			oP.text($(this).attr('info'));
+		},function  () {
+			oPrompt.hide();
+		});
+	})();
 });

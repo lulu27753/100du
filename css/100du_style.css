@@ -279,7 +279,7 @@ body{margin-bottom: 30px; }
 .new_title span{position: absolute; top: 36px; font-size: 23px; color: #333333;}
 .new_title em{position: absolute; top: 26px; left: 105px; font-size: 28px; color: #ec1c16;}
 .activity .new_title{background:  url(../img/new_title_bg.gif) right 0 no-repeat;}
-.recommdation .new_title{background: url(../img/new_title_bg.gif) right -70px no-repeat;;}
+.recommdation .new_title{background: url(../img/new_title_bg.gif) right -70px no-repeat;}
 /* Module new_title End */
 
 /* Module activity */
@@ -292,16 +292,26 @@ body{margin-bottom: 30px; }
 .con .info p{width: 208px; line-height: 18px; color: #999999;}
 
 /* calendar */
-.calendar {font-size: 10px; text-align: center;}
+.calendar {position: relative; font-size: 10px; text-align: center;}
 .calendar h3{width: 298px; font-weight: bold; background:  url(../img/adorn.gif)   repeat-x; word-spacing: 10px; color: #696969; }
 .calendar h3 span{width: 32px; height: 34px; padding-left: 10px; float: left; line-height: 34px;  }
 .calendar ol{}
-.calendar li{width: 40px; height: 40px; line-height: 40px; margin: 0 3px 2px 0; float: left; background: #ededed; color: #8a8a8a; list-style-type:none;}
+.calendar li{width: 40px; height: 40px; line-height: 40px; margin: 0 3px 2px 0; position: relative; float: left; background: #ededed; color: #8a8a8a; list-style-type:none;}
 .calendar .normal{background: #f8f8f8; color: #dedede;}
 
 .calendar .active{position: relative;}
 .calendar .active img{width: 39px; height: 39px; position: absolute; top: 0; left: 0; border: 1px solid red;}
+.calendar li .img{width: 40px; height: 40px; position: absolute;top: 0; left: 0;}
+
+.today_info { width:294px; height:84px; z-index: 3; padding:10px; text-align: left; border:1px solid #c0c0c0; background:#fff; position:absolute; top:136px; left:270px; box-shadow:4px 4px 0 rgba(0,0,0,0.2); display:none; }
+.today_info img { width:80px; height:80px; border:2px solid #dbdbdb; float:left; }
+.today_info .text { width:200px; float:right; }
+.today_info h4 { font-size:12px; color:#333; padding-bottom:8px; }
+.today_info strong { color:#ccc; font-size:18px; vertical-align:middle; }
+.today_info p { color:#999; line-height:20px; }
+.today_info span { width:8px; height:14px; overflow:hidden; position:absolute; top:45px; left:-8px; background:url(../img/adorn.gif) no-repeat 0 -48px; }
 /* Module activity End */
+
 /* Module pic_show */
 .recommd_list{width: 318px; overflow: hidden;}
 .recommd_list li{line-height: 28px; color: #dfdfdf;}
