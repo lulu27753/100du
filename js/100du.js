@@ -185,4 +185,34 @@ $(function  () {
 			oPrompt.hide();
 		});
 	})();
+	 // BBS高亮显示
+	 (function  () {
+	 	var aLi = $('.bbs ol li');
+	 	aLi.mouseover(function(event) {
+	 		aLi.removeClass('active');
+	 		$(this).addClass('active');
+	 	});
+	 })();
+	 // HOT鼠标提示效果
+	 (function  () {
+	 	var aLi = $('.hot_people li');
+	 	var arr =[
+	 		'',
+			'用户1<br />人气1',
+			'用户名：性感宝贝<br />区域：朝阳CBD<br />人气：124987',
+			'用户3<br />人气3',
+			'用户4<br />人气4',
+			'用户5<br />人气5',
+			'用户6<br />人气6',
+			'用户7<br />人气7',
+			'用户8<br />人气8',
+			'用户9<br />人气9',
+			'用户10<br />人气10'];
+			aLi.mouseover(function  () {
+				if ($(this).index() == 0) return;
+				aLi.find('.text').remove();
+				$(this).append('<div class="text" style="width:'+($(this).width()-12)+'px"'+'"height:'+($(this).height()-12)+'px">'+arr[$(this).index()]+'</div>');
+			});
+	 })();
+	 
 });
